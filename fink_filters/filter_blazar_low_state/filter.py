@@ -20,7 +20,7 @@ def low_state_filter(flux_state: Any) -> pd.Series:
 
     Returns
     -------
-    check: np.ndarray
+    check: pd.Series
         Mask that returns True if the alert is a low state, 
         False else
     """
